@@ -1,0 +1,12 @@
+2021-03-23 22:48:44,835 :INFO :test_Markete2e :Market webpage automation is started...
+2021-03-23 22:48:46,985 :INFO :test_Markete2e :Carrot - 1 KgItem has been selected.
+2021-03-23 22:48:47,005 :INFO :test_Markete2e :Its price is 56
+2021-03-23 22:48:47,076 :INFO :test_Markete2e :Added to cart !
+2021-03-23 22:48:47,150 :INFO :test_Markete2e :Went to cart !
+2021-03-23 22:48:51,257 :INFO :test_Markete2e :Applying Coupon...
+2021-03-23 22:48:59,327 :INFO :test_Markete2e :Coupon has been applied successfully !
+2021-03-23 22:48:59,382 :INFO :test_Markete2e :Now placing order.
+2021-03-23 22:48:59,441 :INFO :test_Markete2e :Country has been selected !
+2021-03-23 22:49:01,496 :INFO :test_Markete2e :terms and conditions accepted !
+2021-03-23 22:49:01,536 :INFO :test_Markete2e :Hurry ! Your order has been placed successfully.
+

@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 24-Mar-2021 at 17:20:56 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 29-Mar-2021 at 16:34:50 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.0</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 16.49 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 29.80 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,14 +271,32 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">tests/test_Markete2e.py::TestMarkete2e::test_Markete2e</td>
-          <td class="col-duration">15.45</td>
+          <td class="col-duration">29.70</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div><div><img src="tests/test_Markete2e.py_TestMarkete2e_test_Markete2e.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;tests.test_Markete2e.TestMarkete2e object at 0x00000184D41CF790&gt;<br/><br/>    def test_Markete2e(self):<br/>        log = self.getlogger()<br/>        log.info(&quot;Market webpage automation is started...&quot;)<br/>        homepage = Homepage(self.driver)<br/>        homepage.getSearch().send_keys(&quot;ro&quot;)<br/>        sleep(2)<br/>        items = homepage.getProduct()<br/>        for i in items:<br/>            name = i.find_element_by_xpath(&quot;h4&quot;).text<br/>            if name == &#x27;Carrot - 1 Kg&#x27;:<br/>                log.info(name + &quot;Item has been selected.&quot;)<br/>&gt;               assert &quot;pat&quot; in name<br/><span class="error">E               AssertionError: assert &#x27;pat&#x27; in &#x27;Carrot - 1 Kg&#x27;</span><br/><br/>tests\test_Markete2e.py:21: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_Markete2e:test_Markete2e.py:12 Market webpage automation is started...
-INFO     test_Markete2e:test_Markete2e.py:20 Carrot - 1 KgItem has been selected.<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_Markete2e:test_Markete2e.py:12 Market webpage automation is started...
+INFO     test_Markete2e:test_Markete2e.py:14 Searching for carrot by typing &#x27;ro&#x27; in the search box. 
+INFO     test_Markete2e:test_Markete2e.py:21 Carrot - 1 Kg Item has been selected.
+INFO     test_Markete2e:test_Markete2e.py:24 Its price is 56
+INFO     test_Markete2e:test_Markete2e.py:26 Added to cart !
+INFO     test_Markete2e:test_Markete2e.py:30 Searching for Nuts Mixture by typing &#x27;nut&#x27; in the search box. 
+INFO     test_Markete2e:test_Markete2e.py:37 Nuts Mixture - 1 Kg Item has been selected.
+INFO     test_Markete2e:test_Markete2e.py:40 Its price is 950
+INFO     test_Markete2e:test_Markete2e.py:41 Quantity is increased by one !
+INFO     test_Markete2e:test_Markete2e.py:43 Two Nuts Mixture - 1 Kg has selected to order !
+INFO     test_Markete2e:test_Markete2e.py:46 Added to cart !
+INFO     test_Markete2e:test_Markete2e.py:47 Total price for 2 Nuts Mixture - 1 Kg is 1900
+INFO     test_Markete2e:test_Markete2e.py:49 Went to cart !
+INFO     test_Markete2e:test_Markete2e.py:56 Total amount 1956
+INFO     test_Markete2e:test_Markete2e.py:58 Applying Coupon...
+INFO     test_Markete2e:test_Markete2e.py:61 Code applied ..!
+INFO     test_Markete2e:test_Markete2e.py:63 Total amount after discount 1760.4
+INFO     test_Markete2e:test_Markete2e.py:65 Now placing order.
+INFO     test_Markete2e:test_Markete2e.py:70 Country has been selected !
+INFO     test_Markete2e:test_Markete2e.py:73 Terms and conditions accepted !
+INFO     test_Markete2e:test_Markete2e.py:75 Hurry ! Your order has been placed successfully.<br/></div></td></tr></tbody></table></body></html>

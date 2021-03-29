@@ -9,7 +9,7 @@ def setup(request):
     global driver
     co = webdriver.ChromeOptions()
     co.add_argument("--start-maximized")
-    driver = webdriver.Chrome("c:\webdriver\chromedriver.exe")
+    driver = webdriver.Chrome("c:\webdriver\chromedriver.exe", options=co)
     driver.get("https://rahulshettyacademy.com/seleniumPractise/#/")
     request.cls.driver = driver
 

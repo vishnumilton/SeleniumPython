@@ -1,0 +1,63 @@
+2021-03-29 16:18:42,470 :INFO :test_Markete2e :Market webpage automation is started...
+2021-03-29 16:18:42,474 :INFO :test_Markete2e :Searching for carrot by typing 'ro' in the search box. 
+2021-03-29 16:18:44,864 :INFO :test_Markete2e :Carrot - 1 Kg Item has been selected.
+2021-03-29 16:18:44,907 :INFO :test_Markete2e :Its price is 56
+2021-03-29 16:18:45,090 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:18:47,344 :INFO :test_Markete2e :Searching for Nuts Mixture by typing 'nut' in the search box. 
+2021-03-29 16:18:49,504 :INFO :test_Markete2e :Nuts Mixture - 1 Kg Item has been selected.
+2021-03-29 16:18:49,534 :INFO :test_Markete2e :Its price is 950
+2021-03-29 16:18:49,534 :INFO :test_Markete2e :Quantity is increased by one !
+2021-03-29 16:18:49,595 :INFO :test_Markete2e :Two Nuts Mixture - 1 Kg has selected to order !
+2021-03-29 16:18:51,695 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:18:51,695 :INFO :test_Markete2e :Total price for 2 Nuts Mixture - 1 Kg is 1900
+2021-03-29 16:18:51,842 :INFO :test_Markete2e :Went to cart !
+2021-03-29 16:18:56,022 :INFO :test_Markete2e :Total amount 1956
+2021-03-29 16:18:56,240 :INFO :test_Markete2e :Applying Coupon...
+2021-03-29 16:19:04,409 :INFO :test_Markete2e :Code applied ..!
+2021-03-29 16:19:04,447 :INFO :test_Markete2e :Total amount after discount 1760.4
+2021-03-29 16:19:04,605 :INFO :test_Markete2e :Now placing order.
+2021-03-29 16:19:04,751 :INFO :test_Markete2e :Country has been selected !
+2021-03-29 16:19:06,845 :INFO :test_Markete2e :Terms and conditions accepted !
+2021-03-29 16:19:06,966 :INFO :test_Markete2e :Hurry ! Your order has been placed successfully.
+2021-03-29 16:31:06,426 :INFO :test_Markete2e :Market webpage automation is started...
+2021-03-29 16:31:06,427 :INFO :test_Markete2e :Searching for carrot by typing 'ro' in the search box. 
+2021-03-29 16:31:08,857 :INFO :test_Markete2e :Carrot - 1 Kg Item has been selected.
+2021-03-29 16:31:08,936 :INFO :test_Markete2e :Its price is 56
+2021-03-29 16:31:09,266 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:31:11,396 :INFO :test_Markete2e :Searching for Nuts Mixture by typing 'nut' in the search box. 
+2021-03-29 16:31:13,605 :INFO :test_Markete2e :Nuts Mixture - 1 Kg Item has been selected.
+2021-03-29 16:31:13,631 :INFO :test_Markete2e :Its price is 950
+2021-03-29 16:31:13,632 :INFO :test_Markete2e :Quantity is increased by one !
+2021-03-29 16:31:13,694 :INFO :test_Markete2e :Two Nuts Mixture - 1 Kg has selected to order !
+2021-03-29 16:31:15,858 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:31:15,858 :INFO :test_Markete2e :Total price for 2 Nuts Mixture - 1 Kg is 1900
+2021-03-29 16:31:16,027 :INFO :test_Markete2e :Went to cart !
+2021-03-29 16:31:20,188 :INFO :test_Markete2e :Total amount 1956
+2021-03-29 16:31:20,319 :INFO :test_Markete2e :Applying Coupon...
+2021-03-29 16:31:28,434 :INFO :test_Markete2e :Code applied ..!
+2021-03-29 16:31:28,464 :INFO :test_Markete2e :Total amount after discount 1760.4
+2021-03-29 16:31:28,595 :INFO :test_Markete2e :Now placing order.
+2021-03-29 16:31:28,790 :INFO :test_Markete2e :Country has been selected !
+2021-03-29 16:31:30,898 :INFO :test_Markete2e :Terms and conditions accepted !
+2021-03-29 16:31:31,022 :INFO :test_Markete2e :Hurry ! Your order has been placed successfully.
+2021-03-29 16:34:25,249 :INFO :test_Markete2e :Market webpage automation is started...
+2021-03-29 16:34:25,249 :INFO :test_Markete2e :Searching for carrot by typing 'ro' in the search box. 
+2021-03-29 16:34:27,620 :INFO :test_Markete2e :Carrot - 1 Kg Item has been selected.
+2021-03-29 16:34:27,693 :INFO :test_Markete2e :Its price is 56
+2021-03-29 16:34:27,947 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:34:30,147 :INFO :test_Markete2e :Searching for Nuts Mixture by typing 'nut' in the search box. 
+2021-03-29 16:34:32,406 :INFO :test_Markete2e :Nuts Mixture - 1 Kg Item has been selected.
+2021-03-29 16:34:32,483 :INFO :test_Markete2e :Its price is 950
+2021-03-29 16:34:32,484 :INFO :test_Markete2e :Quantity is increased by one !
+2021-03-29 16:34:32,667 :INFO :test_Markete2e :Two Nuts Mixture - 1 Kg has selected to order !
+2021-03-29 16:34:34,763 :INFO :test_Markete2e :Added to cart !
+2021-03-29 16:34:34,763 :INFO :test_Markete2e :Total price for 2 Nuts Mixture - 1 Kg is 1900
+2021-03-29 16:34:34,885 :INFO :test_Markete2e :Went to cart !
+2021-03-29 16:34:39,022 :INFO :test_Markete2e :Total amount 1956
+2021-03-29 16:34:39,170 :INFO :test_Markete2e :Applying Coupon...
+2021-03-29 16:34:47,317 :INFO :test_Markete2e :Code applied ..!
+2021-03-29 16:34:47,351 :INFO :test_Markete2e :Total amount after discount 1760.4
+2021-03-29 16:34:47,501 :INFO :test_Markete2e :Now placing order.
+2021-03-29 16:34:47,699 :INFO :test_Markete2e :Country has been selected !
+2021-03-29 16:34:49,811 :INFO :test_Markete2e :Terms and conditions accepted !
+2021-03-29 16:34:49,940 :INFO :test_Markete2e :Hurry ! Your order has been placed successfully.
